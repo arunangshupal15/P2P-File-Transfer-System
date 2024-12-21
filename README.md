@@ -49,8 +49,3 @@ The application will be available at:
 - P2P File Transfer
 - Protected Routes
 
-## API Endpoints
-
-- `/api/users` - User authentication routes
-- `/api/files` - File management routes
-- `/api/peers` - P2P connection routes
