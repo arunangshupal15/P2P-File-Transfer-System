@@ -42,21 +42,6 @@ The application will be available at:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:5001
 
-## Project Structure
-
-```
-├── client/                 # React frontend
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── pages/        # Page components
-│   │   ├── context/      # Context providers
-│   │   └── App.js        # Main application component
-│   
-└── server/                # Node.js backend
-    ├── routes/           # API routes
-    └── server.js         # Server configuration
-```
-
 ## Features
 - User Authentication (Register/Login)
 - File Upload
