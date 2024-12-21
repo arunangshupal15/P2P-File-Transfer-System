@@ -1,0 +1,67 @@
+/* client/src/App.css */
+html, body {
+  height: 100%; /* Ensure the html and body elements take the full height */
+  margin: 0; /* Remove default margin */
+}
+
+.App {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Full viewport height */
+  text-align: center;
+  font-family: Arial, sans-serif; /* Set a default font */
+  background-color: #f4f4f4; /* Light background for better readability */
+  color: #333; /* Default text color */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px; /* Adjust as necessary */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-content {
+  flex: 1; /* Allow this section to take remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #282c34; /* Dark background for footer */
+  color: white; /* White text color */
+  text-align: center; /* Center align text */
+  padding: 15px 0; /* Padding for top and bottom */
+  width: 100%; /* Full width */
+}
+
+/* Additional styling for overall layout and components */
+h1, h2, h3 {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px; /* Adjusted width */
+}
